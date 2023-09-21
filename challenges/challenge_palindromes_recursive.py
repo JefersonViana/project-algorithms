@@ -11,5 +11,5 @@ def is_palindrome_recursive(word, low_index, high_index):
 
 
 if __name__ == "__main__":
-    word = "GG"
+    word = "amor"
     print(is_palindrome_recursive(word, 0, len(word) - 1))
